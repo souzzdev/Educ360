@@ -41,7 +41,7 @@ Este repositório faz parte da minha jornada de estudos em **Java**, passando po
 
 ## 📂 Estrutura do repositório
 
-- `/exercicios` → Atividades práticas e desafios resolvidos 💪    
+- `/Exercicios` → Atividades práticas e desafios resolvidos 💪    
 
 ---
 
