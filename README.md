@@ -65,7 +65,7 @@ Acompanhe minha evolução e veja minha progressão no mundo Java! 🚀
 
 📧 **Guilherme Souza**  
 💼 [LinkedIn](https://www.linkedin.com/in/guilhermesouzadev/)  
-🐙 [GitHub](https://github.com/seuusuario)
+🐙 [GitHub](https://github.com/souzzdev)
 
 ---
 
