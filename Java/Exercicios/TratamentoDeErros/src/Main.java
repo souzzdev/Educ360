@@ -1,22 +1,22 @@
-import java.util.Scanner;
-
 public class Main {
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
-
-        int numero = 10;
-        int divisor = input.nextInt();
-        int resultado = 0;
+        double resultado = 0;
         try {
-            resultado = 10/divisor;
-        } catch(ArithmeticException | NullPointerException e){
-            resultado = 10/1;
+            resultado = divisao (10, 0);
+        } catch (DivisaoPorZeroException e) {
+            resultado = 10/e.getValorPadrao();
         }
-        finally{
+        finally {
             System.out.println("Resultado: " + resultado);
         }
-
-        System.out.println("Seguindo o programa");
-
     }
+
+    private static double divisao(int valor, int divisor) throws DivisaoPorZeroException {
+        if (divisor == 0) {
+            throw new DivisaoPorZeroException("Divisão por zero!");
+        }
+
+        return (double) valor / divisor; // casting para double para evitar divisão inteira
+    }
+
 }
